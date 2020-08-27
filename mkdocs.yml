@@ -1,0 +1,43 @@
+# Site general info
+site_name: HPC Docs
+site_description: >-
+    The home of documentation for use of the CWRU HPC resources
+    
+copyright: Copyright &copy; Case Western University
+    
+theme:
+    features:
+        - tabs
+        - instant
+    name: material
+    favicon: img/customLogo.png
+    logo: img/customLogo.png
+    
+    palette:
+        scheme: default
+        primary: indigo
+        accent: indigo
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+# Extensions
+markdown_extensions:
+    - pymdownx.highlight:
+        use_pygments: true
+        linenums: false
+        linenums_style: pymdownx.inline
+    - pymdownx.superfences
+    - pymdownx.snippets
+    - pymdownx.tabbed
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    
+nav:
+    - Home: index.md
+    - About: 
+        - Research Computing: about.md
+    - Contact Us: 
+        - Contact Us: contact_us.md
