@@ -1,0 +1,554 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The home of documentation for use of the CWRU HPC resources">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="img/customLogo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>HPC Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-hpc-home" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="HPC Docs" class="md-header-nav__button md-logo" aria-label="HPC Docs">
+      
+  <img src="img/customLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            HPC Docs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="HPC Docs" class="md-nav__button md-logo" aria-label="HPC Docs">
+      
+  <img src="img/customLogo.png" alt="logo">
+
+    </a>
+    HPC Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="." class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rider-hpc-cluster" class="md-nav__link">
+    The RIDER HPC Cluster
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-to-hpc" class="md-nav__link">
+    New to HPC?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-hpc-access-for-the-first-time-or-addingdeleting-cluster-users-from-your-group" class="md-nav__link">
+    Requesting HPC Access for the first time or Adding/Deleting Cluster users from your group
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-support-guide" class="md-nav__link">
+    User Support &amp; Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-coursework" class="md-nav__link">
+    Requesting Coursework?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-you-have-a-dataset-with-personally-identifiable-information" class="md-nav__link">
+    Do you have a dataset with Personally Identifiable Information?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coming-from-redcat" class="md-nav__link">
+    Coming from Redcat?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questions" class="md-nav__link">
+    Questions?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    External Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      About
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="About" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        About
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="about/" class="md-nav__link">
+      Research Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Contact Us
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Contact Us" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Contact Us
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contact_us/" class="md-nav__link">
+      Contact Us
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rider-hpc-cluster" class="md-nav__link">
+    The RIDER HPC Cluster
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-to-hpc" class="md-nav__link">
+    New to HPC?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-hpc-access-for-the-first-time-or-addingdeleting-cluster-users-from-your-group" class="md-nav__link">
+    Requesting HPC Access for the first time or Adding/Deleting Cluster users from your group
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-support-guide" class="md-nav__link">
+    User Support &amp; Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-coursework" class="md-nav__link">
+    Requesting Coursework?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-you-have-a-dataset-with-personally-identifiable-information" class="md-nav__link">
+    Do you have a dataset with Personally Identifiable Information?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coming-from-redcat" class="md-nav__link">
+    Coming from Redcat?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questions" class="md-nav__link">
+    Questions?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    External Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="welcome-to-hpc-home">Welcome to HPC Home</h1>
+<h2 id="the-rider-hpc-cluster">The RIDER HPC Cluster</h2>
+<p>High Performance Computing services at CWRU are offered through [U]Tech's Research Computing and Cyberinfrastructure (RCCI) group. 
+HPC provides a stable high performance computing environment in support of research at the university. 
+Services include provisioning account access to our computational resources, assistance in optimizing use of those resources, and providing answers to questions about use of the resources. 
+We are also available to assist in pre-award activities related to budgeting for use of HPC resources and services and in post-award involvement in research activities.</p>
+<p>This website provides more information about the cluster and guidance on installed software to run jobs efficiently. </p>
+<p>Access to the cluster is restricted only to Campus network or through VPN (vpnsetup.case.edu), if connecting from outside campus. 
+To log into Rider use:<br />
+<div class="highlight"><pre><span></span><code>ssh &lt;caseID&gt;@rider.case.edu
+</code></pre></div></p>
+<p>Please acknowledge HPC in your HPC-Assisted research works as shown:  </p>
+<blockquote>
+<p>This work made use of the High Performance Computing Resource in the Core Facility for Advanced Research Computing at Case Western Reserve University.</p>
+</blockquote>
+<p>NOTE: Check the main differences between Redcat and Rider.</p>
+<h2 id="new-to-hpc">New to HPC?</h2>
+<p>Please explore the site to learn how to find the software you need, learn about the Module System, and Job Submission.  </p>
+<div class="highlight"><pre><span></span><code>Refer to Getting Started Guide. Looking for a Quick Start Guide? Click here.
+Use keyword search for the topics of your interest in CWRU HPC Welcome Page for easy access to HPC related KB.
+Check our HPC FAQ if you encounter any issues in HPC environment before emailing us
+</code></pre></div>
+<h2 id="requesting-hpc-access-for-the-first-time-or-addingdeleting-cluster-users-from-your-group">Requesting HPC Access for the first time or Adding/Deleting Cluster users from your group</h2>
+<p>Visit our AMARA account management site to either 'apply', or to manage an established research group (only faculty sponsors PIs have access). You would need to have VPN enabled to visit AMARA from outside of campus network. Please view HPC access policy approved by the Advisory Committee on Research Computing. Please access HPC/RCCI services and Resources Information &amp; price structure via iLAB.</p>
+<h2 id="user-support-guide">User Support &amp; Guide</h2>
+<p>Now that you have an HPC account, what's next? The guide "User Support" helps you to get started with running sample jobs in the cluster to get the feel of it. 
+It also provides you links to cater to your specific needs. HPC FAQ tries to resolve not only issues that you encounter while running your jobs but also answers your other HPC-related queries.</p>
+<p>We also hold frequent learning and training opportunities. You can see the schedule on this webpage.</p>
+<h2 id="requesting-coursework">Requesting Coursework?</h2>
+<p>Please use this form to help start the process of requesting cyberinfrastructure for class related work. </p>
+<h2 id="do-you-have-a-dataset-with-personally-identifiable-information">Do you have a dataset with Personally Identifiable Information?</h2>
+<p>The Secure Research Environment (SRE) may suit your data storage needs. Information about research data with sensitive content is available at SRE Site. </p>
+<h2 id="coming-from-redcat">Coming from Redcat?</h2>
+<p>If you were already a cluster user and you were using Redcat, please notice that there are some differences between the two clusters. Although Rider is quite similar to Redcat, we recommend you reading the Module System, since we have introduced some changes, and the Job Submission (specially the GPU section).</p>
+<h2 id="questions">Questions?</h2>
+<p>Please see the <a href="contact_us/">Contact Us</a> page for more information.</p>
+<h2 id="external-links">External Links</h2>
+<ol>
+<li>link1</li>
+<li>link2</li>
+<li>link3</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="about/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Research Computing
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; Case Western University
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: ['tabs', 'instant'],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
