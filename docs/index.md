@@ -54,3 +54,7 @@ If you were already a cluster user and you were using Redcat, please notice that
 Please see the [Contact Us](contact_us.md) page for more information.
 
 ## External Links
+
+1. link1
+2. link2
+3. link3
